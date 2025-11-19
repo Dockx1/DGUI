@@ -1,0 +1,17 @@
+
+gui:
+  title: "&9Docks &7Command GUI"
+  size: 9
+  item:
+    material: DIAMOND
+    slot: 4
+    name: "&bClick to run commands"
+    lore:
+      - "&7This will run a list of commands."
+      - "&7Configured in config.yml."
+
+commands:
+  - "console: say {player} used the Docks GUI!"
+  - "console: give {player} diamond 1"
+  - "player: spawn"
+  - "broadcast &a{player} just triggered the GUI!"
